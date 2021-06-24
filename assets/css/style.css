@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: black;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+  header nav {
+      margin: 7px 0;
+  }
+
+  section {
+      display: flex;
+      flex-direction: row;
+  
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+  #banner {
+      width: max-content;
+      height: 20%;
+      background-image: url("/assets/img/zenstones.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+  #work-gallery {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+  }
+

@@ -1,46 +1,117 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
 header {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 80px;
+  background-color: rgb(181, 228, 168);
+  margin: 0;
+  position: relative;
 }
 
-header h1 {
-    font-weight: bold;
-    margin: 0;
-    font-size: 36px;
-    color: black;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-
-li a {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+#name h1 {
+  font-weight: bold;
+  margin: 10px;
+  color: rgb(0, 0, 0);
 }
 
-  header nav {
-      margin: 7px 0;
-  }
+#name {
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  left: 15px;
+  background-color: cornflowerblue;
+  width: fit-content;
+  height: fit-content;
+  border:rgb(70, 127, 233);
+  border-style: solid;
+}
 
-  section {
-      display: flex;
-      flex-direction: row;
-  
-      margin-right: auto;
-      margin-left: auto;
-  }
+header nav {
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  right: 15px;
+}
 
-  #banner {
-      width: max-content;
-      height: 20%;
-      background-image: url("/assets/img/zenstones.jpeg");
-      background-size: cover;
-      background-repeat: no-repeat;
-  }
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
 
-  #work-gallery {
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-  }
+header nav ul li a {
+  padding: 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
+header a {
+  text-decoration: none;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  padding-left: 30%;
+  padding-right: 20%;
+}
+
+section h1 {
+  padding-right: 2%;
+  border-right: black;
+  border-style: solid;
+  border-width: 0 2px 0 0;
+}
+
+#banner {
+  max-width: 100%;
+  height: 215px;
+  position: relative;
+} 
+
+img {
+   width: 100%;
+   height: 100%;
+}
+
+#title {
+  position: absolute;
+  bottom: 10px;
+  right: 16px;
+  background-color: cornflowerblue;
+  width: fit-content;
+  height: fit-content;
+  border:rgb(70, 127, 233);
+  border-style: solid;
+}
+
+#title h3 {
+  margin: 10px;
+}
+
+#about-me h1 {
+  align-items: flex-start;
+}
+
+#work {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#work h1 {
+  align-items: flex-start;
+}
+
+#contact {
+  justify-content: space-evenly;
+}
+
+#contact h1 {
+  align-items: flex-start;
+}

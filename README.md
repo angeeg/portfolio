@@ -1,7 +1,7 @@
 # portfolio
 
 ## Description 
-Hello, I'm Angeleena a junior full-stack web developer. Please visit my portfolio website to learn more about myself and the work that I do. I am new to this coding journey and am very excited to learn and grow.
+Hello, I'm Angeleena a junior full-stack web developer. Please visit my portfolio website to learn more about myself and the work that I do. I am very excited to share my experience with you on this coding journey of mine, as I continue to learn and grow.
 ## Installation
 Not available for installation.
 ## Usage 

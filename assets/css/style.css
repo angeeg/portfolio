@@ -137,6 +137,16 @@ body {
   margin: 5px;
 } 
 
-#contact a {
+.contact {
+  width: 60%;
+}
+
+.contact a {
   text-decoration: none;
 }
+
+.contact p {
+  justify-content: space-around;
+}
+
+
